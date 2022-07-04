@@ -45,7 +45,7 @@ const PostsList = () => {
 
     return (
         <div className='postlist-wrapper'>
-            <Forms onAdd={onAdd}/>
+            <Forms onAdd={onAdd} loading={loading}/>
 
             {loading && <div>LOADING.....</div>}
 

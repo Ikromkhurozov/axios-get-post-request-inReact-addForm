@@ -1,0 +1,4 @@
+.postlist-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}

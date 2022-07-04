@@ -1,0 +1,36 @@
+
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(199, 199, 199);
+    padding: 20px;
+    width: 100%;
+}
+
+.form-title{
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.form-body{
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.form-title:focus,
+.form-body:focus{
+    border: 1px solid rgb(4, 93, 156);
+}
+
+.submit-btn{
+    padding: 15px 40px;
+    font-size: 15px;
+}
+

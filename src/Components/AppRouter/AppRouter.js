@@ -11,7 +11,7 @@ function AppRouter() {
         <Router>
             <div>
                 <Nav/>
-                
+
             </div>
             <Routes>
                 <Route path='/' element={<PostsList/>} ></Route>
@@ -23,3 +23,7 @@ function AppRouter() {
 }
 
 export default AppRouter;
+
+
+
+

@@ -1,0 +1,28 @@
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(119, 119, 119);
+    padding: 25px;
+    margin-top: 0;
+    z-index: 1000;
+    /* position: fixed; */
+    width: 100%;
+}
+
+.nav-ul li{
+    list-style-type: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav-ul .nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.nav-link:focus{
+    color: #000;
+}
+

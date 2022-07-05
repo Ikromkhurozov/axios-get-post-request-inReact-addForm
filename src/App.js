@@ -1,10 +1,11 @@
 import './App.css';
-import PostsList from './Components/Posts/PostsList';
+import AppRouter from './Components/AppRouter/AppRouter';
 
 function App() {
     return (
         <div>
-            <PostsList/>
+            <AppRouter/>
+
         </div>
     );
 }

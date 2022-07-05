@@ -1,0 +1,30 @@
+
+.commentslist-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+    
+}
+
+.comments-container{
+    padding-top: 100px;
+    width: 233px;
+    background-color: rgb(133, 133, 133); 
+    padding: 20px;
+    margin: 10px;    
+    text-align: center;
+}
+
+.comments-container:hover{
+    box-shadow: 2px 2px 10px rgb(99, 99, 99);
+}
+
+.name-info{
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+.email-info{
+    color: #eee;
+}
